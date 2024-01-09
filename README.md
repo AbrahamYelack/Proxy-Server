@@ -9,18 +9,6 @@ Multithreading: Handles multiple client requests simultaneously to improve respo
 
 Error Handling: Provides basic error handling for client and cache-related issues.
 
-## Usage
-Prerequisites
-Python 3.x
-Running the Proxy Server
-Clone the repository to your local machine:
-
-Run:
-python proxy_server.py <hostname> <port>
-Replace <hostname> and <port> with the desired hostname and port number for the proxy server.
-
-The proxy server will start listening for incoming connections.
-
 ## How the Proxy Server Works
 
 Client Request Handling:
