@@ -2,9 +2,12 @@
 This is a lightweight Python proxy server designed to handle HTTP requests, cache resources, and improve performance by serving cached content when possible. The server utilizes multithreading to handle concurrent client requests.
 
 ## Features
+
 Caching: The proxy server caches resources based on cache directives in the HTTP header.
+
 Multithreading: Handles multiple client requests simultaneously to improve responsiveness.
-Basic Error Handling: Provides basic error handling for client and cache-related issues.
+
+Error Handling: Provides basic error handling for client and cache-related issues.
 
 ## Usage
 Prerequisites
@@ -54,4 +57,4 @@ Cacheable HTTP response codes include: 200, 203, 206, 300, 301, 410.
 Cache expiration is determined by the 'max-age' directive in the header.
 Feel free to contribute, report issues, or suggest improvements!
 
-Please replace <hostname> and <port> with the actual hostname and port number you intend to use for the proxy server. This updated README provides a more detailed explanation of how the proxy server works without the removed sections.
+Please replace hostname and port with the actual hostname and port number you intend to use for the proxy server. This updated README provides a more detailed explanation of how the proxy server works without the removed sections.
