@@ -1,4 +1,4 @@
-# Simple Python Proxy Server
+# Python Proxy Server
 This is a lightweight Python proxy server designed to handle HTTP requests, cache resources, and improve performance by serving cached content when possible. The server utilizes multithreading to handle concurrent client requests.
 
 ## Features
